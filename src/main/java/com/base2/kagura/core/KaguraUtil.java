@@ -17,9 +17,11 @@ import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.List;
 
 public class KaguraUtil {
 	private final static String reportConfFile = "reportconf.yaml";
+	static List<String> errors;
 
 	/**
 	 * The main way you should easily load Kagura reports.
